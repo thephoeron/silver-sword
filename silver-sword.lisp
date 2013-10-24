@@ -84,7 +84,6 @@
 (defun solve-qubo (solver-name q &key (num-reads 1) (num-programming-cycles 1) (answer-mode "histogram") (max-answers 1))
     "Solve Qubo using designated solver. q must be a hash-table of couplings to energies. Returns a hash-table with the keys: solutions, energies, num_occurences."
     (let* ((the-solver (format nil "local_connection.get_solver(\"~A\")" solver-name))
-           ;(the-energies (format nil "[~{~A~^, ~}]" h))
            (the-couplings (format nil "{~{~a~^, ~}}"
              (loop for key being the hash-keys of q
                    using (hash-value value)
@@ -101,8 +100,6 @@
               using (hash-value value)
               collect (format nil "~S: ~S" (string-downcase key) value))))
       (setf solve-string (format nil "solve_qubo(~A,~A,**~A)" the-solver the-couplings param-string))
-      ;(print solve-string)
-      (burgled-batteries:run solve-string)
-      ))
+      (burgled-batteries:run solve-string)))
 
 ;; EOF

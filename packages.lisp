@@ -14,7 +14,7 @@
              #:local-solver-qubits #:local-solver-total-qubits
              #:local-solver-couplers
              #:solve-ising #:*solve-ising-python-documentation*
-             ))
+             #:solve-qubo #:*solve-qubo-python-documentation*))
 
 ;; see asdf system definition
 (defvar silver-sword:*silver-sword-version*
