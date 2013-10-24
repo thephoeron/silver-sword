@@ -10,6 +10,15 @@
     (burgled-batteries:startup-python)
     (burgled-batteries:run "from dwave_sapi import *"))
 
+;; HASH-TABLE Utility functions
+(defun print-hash-entry (key value)
+    (format t ";; -- ~S: ~S~%" key value))
+
+(defun print-hash-table (the-hash-table)
+    "Map over hash-table object and print 'key: value' pairs."
+    (format t ";; For ~S~%" the-hash-table)
+    (maphash #'print-hash-entry the-hash-table))
+
 ;; LOCAL_CONNECTION.SOLVER_NAMES
 (burgled-batteries:defpyfun "local_connection.solver_names" ())
 
