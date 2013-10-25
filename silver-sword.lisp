@@ -16,7 +16,7 @@
 
 (defun print-hash-table (the-hash-table)
     "Map over hash-table object and print 'key: value' pairs."
-    (format t ";; For ~S~%" the-hash-table)
+    (format t "~%;; For ~S~%" the-hash-table)
     (maphash #'print-hash-entry the-hash-table))
 
 ;; LOCAL_CONNECTION.SOLVER_NAMES

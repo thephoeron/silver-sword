@@ -9,6 +9,7 @@
     (:nicknames #:ss)
     (:use :cl)
     (:export #:*silver-sword-version*
+             #:print-hash-table
              #:local-solver-names #:*local-solver-names-python-documentation*
              #:local-get-solver #:*local-get-solver-python-documentation*
              #:local-solver-qubits #:local-solver-total-qubits
