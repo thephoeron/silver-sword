@@ -19,6 +19,11 @@
     (format t "~%;; For ~S~%" the-hash-table)
     (maphash #'print-hash-entry the-hash-table))
 
+;; Throw-away function, useful for checking to see how BURGLED-BATTERIES mangles python names
+(defun list-all-symbols ()
+    (loop for s being the symbols of (find-package "SILVER-SWORD")
+      collect s))
+
 ;; LOCAL_CONNECTION.SOLVER_NAMES
 (burgled-batteries:defpyfun "local_connection.solver_names" ())
 
@@ -110,5 +115,88 @@
               collect (format nil "~S: ~S" (string-downcase key) value))))
       (setf solve-string (format nil "solve_qubo(~A,~A,**~A)" the-solver the-couplings param-string))
       (burgled-batteries:run solve-string)))
+
+;; WRITE-QUBO
+(burgled-batteries:defpyfun "write_qubo" ())
+
+(defvar *write-qubo-python-documentation*
+    (documentation 'write_qubo 'function))
+
+;; READ-QUBO
+(burgled-batteries:defpyfun "read_qubo" ())
+
+(defvar *read-qubo-python-documentation*
+    (documentation 'read_qubo 'function))
+
+;; ISING-TO-QUBO
+(burgled-batteries:defpyfun "ising_to_qubo" ())
+
+(defvar *ising-to-qubo-python-documentation*
+    (documentation 'ising_to_qubo 'function))
+
+;; QUBO-TO-ISING
+(burgled-batteries:defpyfun "qubo_to_ising" ())
+
+(defvar *qubo-to-ising-python-documentation*
+    (documentation 'qubo_to_ising 'function))
+
+;; GET-CHIMERA-ADJACENCY
+(burgled-batteries:defpyfun "get_chimera_adjacency" ())
+
+(defvar *get-chimera-adjacency-python-documentation*
+    (documentation 'get_chimera_adjacency 'function))
+
+;; GET-HARDWARE-ADJACENCY
+(burgled-batteries:defpyfun "get_hardware_adjacency" ())
+
+(defvar *get-hardware-adjacency-python-documentation*
+    (documentation 'get_hardware_adjacency 'function))
+
+;; LINEAR-INDEX-TO-CHIMERA
+(burgled-batteries:defpyfun "linear_index_to_chimera" ())
+
+(defvar *linear-index-to-chimera-python-documentation*
+    (documentation 'linear_index_to_chimera 'function))
+
+;; CHIMERA-TO-LINEAR-INDEX
+(burgled-batteries:defpyfun "chimera_to_linear_index" ())
+
+(defvar *chimera-to-linear-index-python-documentation*
+    (documentation 'chimera_to_linear_index 'function))
+
+;; FIX-VARIABLES-SOLVER
+(burgled-batteries:defpyfun "FixVariablesSolver" ())
+
+(defvar *fix-variables-solver-python-documentation*
+    (documentation 'fixvariablessolver 'function))
+
+;; EMBEDDING-SOLVER
+(burgled-batteries:defpyfun "EmbeddingSolver" ())
+
+(defvar *embedding-solver-python-documentation*
+    (documentation 'embeddingsolver 'function))
+
+;; BLACK-BOX-SOLVER
+(burgled-batteries:defpyfun "BlackBoxSolver" ())
+
+(defvar *black-box-solver-python-documentation*
+    (documentation 'blackboxsolver 'function))
+
+(burgled-batteries:defpyfun "BlackBoxSolver.solve" ())
+
+(defvar *black-box-solver-solve-python-documentation*
+    (documentation 'blackboxsolver.solve 'function))
+
+;; REDUCE-DEGREE
+(burgled-batteries:defpyfun "reduce_degree" ())
+
+(defvar *reduce-degree-python-documentation*
+    (documentation 'reduce_degree 'function))
+
+;; MAKE-QUADRATIC
+(burgled-batteries:defpyfun "make_quadratic" ())
+
+(defvar *make-quadratic-python-documentation*
+    (documentation 'make_quadratic 'function))
 
 ;; EOF
