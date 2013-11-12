@@ -9,6 +9,13 @@
 ;; through burgled-batteries after the original tutorial
 
 (defun spin-physics ()
-  )
+  (let ((solver "c4-sw_sample") ;; set up default solver
+        (h (make-list 128 :initial-element 0)) ;; list of energies, h
+        (j (make-hash-table)) ;; hash-table for couplers, J
+        (fm-answer nil)
+        (afm-answer nil)
+        (dw-answer nil)
+        (pdw-answer nil)
+        (pt-answer nil))))
 
 ;; EOF
