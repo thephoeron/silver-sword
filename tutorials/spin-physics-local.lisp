@@ -5,4 +5,10 @@
 
 (in-package :silver-sword-tutorials)
 
+;; CL-PLPLOT is failing miserably, so we'll have to call mplotlib
+;; through burgled-batteries after the original tutorial
+
+(defun spin-physics ()
+  )
+
 ;; EOF
