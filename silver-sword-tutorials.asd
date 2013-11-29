@@ -11,6 +11,7 @@
   :serial t
   :depends-on (:burgled-batteries
                :gsll
+               :cgn
                :cl-ppcre
                :silver-sword)
   :pathname #P"tutorials/"
