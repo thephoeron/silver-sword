@@ -6,13 +6,13 @@
 (in-package :cl-user)
 
 (defpackage #:silver-sword-tutorials
-	(:nicknames #:sst)
-	(:use :cl
-		  :silver-sword
-		  :gsll
+    (:nicknames #:sst)
+    (:use :cl
+          :silver-sword
+          :gsll
           :cgn
-		  :cl-ppcre
-		  :cl-fad)
-	(:export ))
+          :cl-ppcre
+          :cl-fad)
+    (:export ))
 
 ;; EOF
