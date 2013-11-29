@@ -62,6 +62,7 @@ System Requirements
 * Linux x86_64 or Windows XP, Vista, 7 (32/64 bit)
 * Python 2.7.x
 * D-Wave Python Pack 1.4.0
+* GNU Plot 4.6+
 * SBCL 1.1.7+
 * Quicklisp
 
