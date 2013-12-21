@@ -6,5 +6,5 @@ Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer ene
 Contents
 --------
 
-* [API Documentation](/api/)
-* [Tutorials](/tutorials/)
+* [API Documentation](api/)
+* [Tutorials](tutorials/)
