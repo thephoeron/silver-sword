@@ -5,9 +5,6 @@
 
 (in-package :silver-sword-tutorials)
 
-;; CL-PLPLOT is failing miserably, so we'll have to call mplotlib
-;; through burgled-batteries after the original tutorial
-
 (defun spin-physics ()
   (let ((solver "c4-sw_sample") ;; set up default solver
         (h (make-list 128 :initial-element 0)) ;; list of energies, h

@@ -3,6 +3,11 @@ SILVER-SWORD
 
 Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer energy programming, including translations of tutorials into CL.
 
+Documentation
+-------------
+
+Documentation and Tutorials available at: http://thephoeron.viewdocs.io/silver-sword
+
 Usage
 -----
 
@@ -77,8 +82,4 @@ From Quicklisp:
 * gsll (GNU Scientific Library for Lisp)
 * cgn (Common Lisp binding to GNUPlot)
 * ltk (Lisp TK Bindings)
-
-Other dependencies (clone into ``~/quicklisp/local-projects/``):
-
-* let-over-lambda <https://github.com/thephoeron/let-over-lambda>
-* uber-shell <https://github.com/thephoeron/uber-shell>
+* cl-fad
