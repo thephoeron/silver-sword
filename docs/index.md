@@ -7,4 +7,4 @@ Contents
 --------
 
 * [API Documentation](api/)
-* [Tutorials](tutorials/)
+* [Tutorials](tutorials/index/)

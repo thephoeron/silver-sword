@@ -4,7 +4,7 @@ SILVER-SWORD
 Tutorials
 ---------
 
-* [hello-multiverse](hello-multiverse/)
+* [hello-multiverse](tutorials/hello-multiverse/)
 * nand-gate
 * spin-physics
 * hadamard-blackbox
