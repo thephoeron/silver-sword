@@ -4,7 +4,7 @@ SILVER-SWORD
 Tutorials
 ---------
 
-* [hello-multiverse](tutorials/hello-multiverse/)
-* nand-gate
-* spin-physics
-* hadamard-blackbox
+* [Hello, Multiverse!](tutorials/hello-multiverse/)
+* NAND Gate
+* Spin Physics Simulator
+* Matrix Search
