@@ -22,7 +22,7 @@
 ;; Throw-away function, useful for checking to see how BURGLED-BATTERIES mangles python names
 (defun list-all-symbols ()
     (loop for s being the symbols of (find-package "SILVER-SWORD")
-      collect s))
+          collect s))
 
 ;; LOCAL_CONNECTION.SOLVER_NAMES
 (burgled-batteries:defpyfun "local_connection.solver_names" ())
@@ -61,7 +61,7 @@
     (local-get-solver solver-name)
     (burgled-batteries:run "solver.couplers"))
 
-;; SOLVE_ISING
+;; SOLVE-ISING
 (burgled-batteries:defpyfun "solve_ising" (solver-name h j &key num-reads num-programming-cycles answer-mode max-answers))
 
 (defvar *solve-ising-python-documentation*
@@ -89,7 +89,7 @@
       (setf solve-string (format nil "solve_ising(~A,~A,~A,**~A)" the-solver the-energies the-couplings param-string))
       (burgled-batteries:run solve-string)))
 
-;; SOLVE_QUBO
+;; SOLVE-QUBO
 (burgled-batteries:defpyfun "solve_qubo" (solver-name q &key num-reads num-programming-cycles answer-mode max-answers))
 
 (defvar *solve-qubo-python-documentation*
