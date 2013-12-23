@@ -5,7 +5,7 @@ Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer ene
 
 *Note*: access to D-Wave's Python Pack for adiabatic quantum computer energy programming is limited to registered developers, and registration for the D-Wave Developer Portal is now closed.
 
-For more information, please see [the D-Wave Developer Portal](http://www.dwavesys.com/en/dev-portal.html).
+For more information on D-Wave Systems, adiabatic quantum computer energy programming, and the D-Wave Python Pack, please see [the D-Wave Developer Portal](http://www.dwavesys.com/en/dev-portal.html).
 
 Getting Started
 ---------------
