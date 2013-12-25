@@ -1,6 +1,9 @@
 SILVER-SWORD
 ============
 
-Hello, Multiverse! Tutorial
----------------------------
+Tutorial: Hello, Multiverse!
+----------------------------
 
+```#lisp
+* (ql:quickload '("silver-sword" "silver-sword-tutorials"))
+```
