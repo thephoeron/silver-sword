@@ -83,3 +83,5 @@ From Quicklisp:
 * cgn (Common Lisp binding to GNUPlot)
 * ltk (Lisp TK Bindings)
 * cl-fad
+
+Update (01/17/2014): *cgn* was removed from Quicklisp with the January 2014 update.  Time to find a new plotting lib, again.
