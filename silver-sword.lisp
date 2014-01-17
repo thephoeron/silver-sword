@@ -12,11 +12,11 @@
 
 ;; HASH-TABLE Utility functions
 (defun print-hash-entry (key value)
-    (format t ";; -- ~S: ~S~%" key value))
+    (format t "~S: ~S~%" key value))
 
 (defun print-hash-table (the-hash-table)
     "Map over hash-table object and print 'key: value' pairs."
-    (format t "~%;; For ~S~%" the-hash-table)
+    (format t "~%For ~S~%" the-hash-table)
     (maphash #'print-hash-entry the-hash-table))
 
 ;; Throw-away function, useful for checking to see how BURGLED-BATTERIES mangles python names
