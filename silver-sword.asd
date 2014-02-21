@@ -12,13 +12,13 @@
 
 (in-package :silver-sword-asd)
 
-(defparameter *silver-sword-version* "0.1 alpha")
+(defparameter *silver-sword-version* "0.1.1")
 
 (defsystem silver-sword
     :version #.*silver-sword-version*
     :author "\"the Phoeron\" Colin J.E. Lupton <sysop@thephoeron.com>"
     :license "MIT"
-    :description "Common Lisp interface to D-Wave's Python Pack"
+    :description "Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer energy programming."
     :serial t
     :depends-on (:burgled-batteries)
     :components ((:file "packages")

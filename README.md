@@ -25,7 +25,7 @@ Load SILVER-SWORD and its tutorial package with quicklisp:
 Run the `hello-multiverse` wrapper function:
 
 ```lisp
-* (sst::hello-multiverse)
+* (sst:hello-multiverse)
 ```
 
 You should see a result similar to this:
@@ -77,7 +77,7 @@ System Requirements
 * SBCL 1.1.14+
 * Quicklisp
 
-Note: access to D-Wave's Python Pack for adiabatic quantum computer energy programming is limited to registered developers, and registration for the D-Wave Developer Portal is now closed.
+*Note*: with the launch of the new D-Wave Systems website, the Developer Portal and downloads of the Python Pack for registered developers is no longer available.
 
 Dependencies
 ------------
