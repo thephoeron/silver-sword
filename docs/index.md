@@ -3,9 +3,9 @@ SILVER-SWORD
 
 Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer energy programming, including translations of tutorials into CL.
 
-*Note*: access to D-Wave's Python Pack for adiabatic quantum computer energy programming is limited to registered developers, and registration for the D-Wave Developer Portal is now closed.
+*Note*: with the launch of the new D-Wave Systems website, the Developer Portal and downloads of the Python Pack for registered developers is no longer available.
 
-For more information on D-Wave Systems, adiabatic quantum computer energy programming, and the D-Wave Python Pack, please see [the D-Wave Developer Portal](http://www.dwavesys.com/en/dev-portal.html).
+For more information on D-Wave Systems and adiabatic quantum computer energy programming, please see the [D-Wave Resources](http://www.dwavesys.com/resources).
 
 Getting Started
 ---------------
@@ -22,8 +22,8 @@ System Requirements
 * Linux x86_64 or Windows XP/Vista/7 (32/64bit)
 * Python 2.7.x
 * D-Wave Python Pack 1.4.0
-* GNU Plot 4.6+
-* SBCL 1.1.7+
+* PL-Plot 5.10+
+* SBCL 1.1.14+
 * Quicklisp
 
 Dependencies
@@ -33,9 +33,7 @@ From Quicklisp:
 
 * burgled-batteries
 * gsll
-* cgn
-* ltk
-* cl-fad
+* cl-plplot
 
 Documentation
 -------------

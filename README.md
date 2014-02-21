@@ -73,8 +73,8 @@ System Requirements
 * Linux x86_64 or Windows XP, Vista, 7 (32/64 bit)
 * Python 2.7.x
 * D-Wave Python Pack 1.4.0
-* GNU Plot 4.6+
-* SBCL 1.1.7+
+* PL-Plot 5.10+
+* SBCL 1.1.14+
 * Quicklisp
 
 Note: access to D-Wave's Python Pack for adiabatic quantum computer energy programming is limited to registered developers, and registration for the D-Wave Developer Portal is now closed.
@@ -86,8 +86,4 @@ From Quicklisp:
 
 * burgled-batteries
 * gsll (GNU Scientific Library for Lisp)
-* cgn (Common Lisp binding to GNUPlot)
-* ltk (Lisp TK Bindings)
-* cl-fad
-
-Update (01/17/2014): *cgn* was removed from Quicklisp with the January 2014 update.  Time to find a new plotting lib, again.
+* cl-plplot

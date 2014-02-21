@@ -20,10 +20,7 @@
     :license "MIT"
     :description "Common Lisp interface to D-Wave's Python Pack"
     :serial t
-    :depends-on (:burgled-batteries
-                 :gsll
-                 :cl-ppcre
-                 :cl-fad)
+    :depends-on (:burgled-batteries)
     :components ((:file "packages")
                  (:file "silver-sword")))
 

@@ -32,13 +32,13 @@
                ~%;; 54 = ~S~
                ~%;; 51 = ~S~
                ~%;; 55 = ~S"
-      (elt (elt (gethash "solutions" answer) 0) 48)
-      (elt (elt (gethash "solutions" answer) 0) 52)
-      (elt (elt (gethash "solutions" answer) 0) 49)
-      (elt (elt (gethash "solutions" answer) 0) 53)
-      (elt (elt (gethash "solutions" answer) 0) 50)
-      (elt (elt (gethash "solutions" answer) 0) 54)
-      (elt (elt (gethash "solutions" answer) 0) 51)
-      (elt (elt (gethash "solutions" answer) 0) 55))))
+      (elt (elt (gethash "solutions" fm-answer) 0) 48)
+      (elt (elt (gethash "solutions" fm-answer) 0) 52)
+      (elt (elt (gethash "solutions" fm-answer) 0) 49)
+      (elt (elt (gethash "solutions" fm-answer) 0) 53)
+      (elt (elt (gethash "solutions" fm-answer) 0) 50)
+      (elt (elt (gethash "solutions" fm-answer) 0) 54)
+      (elt (elt (gethash "solutions" fm-answer) 0) 51)
+      (elt (elt (gethash "solutions" fm-answer) 0) 55))))
 
 ;; EOF

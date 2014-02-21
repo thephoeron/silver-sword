@@ -10,9 +10,9 @@
     (:use :cl
           :silver-sword
           :gsll
-          :cgn
-          :cl-ppcre
-          :cl-fad)
-    (:export ))
+          :cl-plplot)
+    (:export #:hello-multiverse
+             #:nand-gate
+             #:spin-physics))
 
 ;; EOF

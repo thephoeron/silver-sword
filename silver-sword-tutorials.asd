@@ -11,8 +11,7 @@
   :serial t
   :depends-on (:burgled-batteries
                :gsll
-               :cgn
-               :cl-ppcre
+               :cl-plplot
                :silver-sword)
   :pathname #P"tutorials/"
   :components ((:file "packages")
