@@ -1,5 +1,7 @@
-SILVER-SWORD
-============
+# SILVER-SWORD
+
+[![Not Available in Quicklisp](https://img.shields.io/badge/quicklisp-not%20available-red.svg)](https://quicklisp.org/)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Common Lisp interface to D-Wave's Python Pack for adiabatic quantum computer energy programming, including translations of tutorials into CL.
 
